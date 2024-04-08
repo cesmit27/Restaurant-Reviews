@@ -9,6 +9,8 @@ Then I could run the project
 
 This produced the Restaurant_Data_Scraped.csv file
 
+EDIT: I actually removed this following section from the CSV, I dont think having manual updates to the CSV was necessary for this and didn't want to have any personal bias influencing my results
+
 In this CSV file, I added in restaurant type manually
 The options were:
 	Table Service
