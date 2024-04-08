@@ -1,0 +1,18 @@
+I ran this project using anaconda command prompt, here's how I did that so I don't forget
+
+I ran this off my D: drive, so first I had to set that in the command prompt
+	D:
+Then I had to specify my folder
+	cd D:\WebScraper
+Then I could run the project
+	python run_restaurant_data.py
+
+This produced the Restaurant_Data_Scraped.csv file
+
+In this CSV file, I added in restaurant type manually
+The options were:
+	Table Service
+	Fast Food
+	Dessert/Coffee
+I dont really have a science or math based approach to this, it is all pretty much anecdotal or I looked at their menu
+Yelp has a $ rating as well, but not every restaurant I got data for had this rating so I didn't use it.
