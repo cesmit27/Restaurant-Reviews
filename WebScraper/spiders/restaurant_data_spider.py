@@ -38,7 +38,7 @@ class RestaurantDataSpider(scrapy.Spider):
          ratings = response.css('div[role="img"][aria-label$="star rating"]::attr(aria-label)').getall()
         #Get amount of ratings
          reviews_text = response.css('a.css-19v1rkv::text').get()
-         num_reviews = reviews_text.split()[0][1:] #Remove parantheses and the word "ratings". (400 ratings) becomes 400
+         num_reviews = reviews_text.split()[0][1:] #Remove parantheses and the word "ratings". "(400 ratings)" becomes "400"
         #Yelp had the incorrect name for Clean Juice on their site so this fixes that in the csv. Not sure how practical this is if I didn't know of the error and was using a much larger sample set of restaurants
          if restaurant_name == "Stonecrest":
              restaurant_name = "Clean Juice"
