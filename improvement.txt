@@ -5,7 +5,7 @@ However, I couldn't figure out how to get the HTML selector to grab individual r
 Additionally, I couldn't figure out how to make the web scraper go to the next page, since yelp only shows a few reviews per
 restaurant before you have to click to the second page and then the third page and so on for the rest of the reviews.
 
-Not having this data limited what I wanted to do in seaborn, I was think a line graph that showed average rating per year
+Not having this data limited what I wanted to do in seaborn, I was thinking a line graph that showed average rating per year
 per restaurant would have been cool, but the data I ended up scraping couldn't support this.
 
 These are the ways I would improve this project, perhaps once I learn how to deal with pagination and understand
