@@ -1,0 +1,2 @@
+This information is up to date as of April 2024. I should have put that on the outsput svg but I forgot to do that, and will need to update it at some point
+Honestly the svg file needs to have a title for the chart
